@@ -10,6 +10,7 @@ public class CertificateVo {
     private Long certificateId;
     private String certificateNo;
 
+    private Long userId;
     private String userIdNo;
     private String userName;
 
@@ -18,6 +19,8 @@ public class CertificateVo {
      * X年Y月Z日
      */
     private String issueDate;
+
+    private Long examId;
     private String examName;
     /**
      * X年Y月Z日

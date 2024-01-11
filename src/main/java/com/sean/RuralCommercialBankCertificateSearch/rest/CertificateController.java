@@ -11,8 +11,9 @@ public class CertificateController {
         return "";
     }
 
-    @GetMapping("/query/{idNo}")
-    public String query(@PathVariable("idNo")String idNo){
+    @GetMapping("/query/{examId}/{idNo}")
+    public String query(@PathVariable("examId")String examId,
+                        @PathVariable("userIdNo")String userIdNo){
         return "";
     }
 
