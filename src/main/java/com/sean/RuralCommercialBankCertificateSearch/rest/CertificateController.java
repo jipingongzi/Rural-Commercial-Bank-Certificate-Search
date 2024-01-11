@@ -1,5 +1,6 @@
 package com.sean.RuralCommercialBankCertificateSearch.rest;
 
+import com.sean.RuralCommercialBankCertificateSearch.rest.vo.CertificateVo;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -12,9 +13,9 @@ public class CertificateController {
     }
 
     @GetMapping("/query/{examId}/{idNo}")
-    public String query(@PathVariable("examId")String examId,
-                        @PathVariable("userIdNo")String userIdNo){
-        return "";
+    public CertificateVo query(@PathVariable("examId")String examId,
+                               @PathVariable("userIdNo")String userIdNo){
+        return null;
     }
 
 

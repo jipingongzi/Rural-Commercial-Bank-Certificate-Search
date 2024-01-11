@@ -11,7 +11,7 @@ public class CertificateVo {
     private String certificateNo;
 
     private Long userId;
-    private String userIdNo;
+    private String userNo;
     private String userName;
 
     private String issuerName;

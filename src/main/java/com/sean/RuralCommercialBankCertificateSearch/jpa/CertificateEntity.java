@@ -12,10 +12,13 @@ public class CertificateEntity {
 
     @Id
     private Long id;
+    private String no;
+
     private String userName;
-    private String userIdNo;
+    private String userNo;
 
     private Long examId;
+    private LocalDateTime examDate;
 
     private String issuerName;
     private LocalDateTime issueDate;
